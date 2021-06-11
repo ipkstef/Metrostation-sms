@@ -61,5 +61,4 @@ config.py
 metro.sublime-project
 metro.sublime-workspace
 metroapi/
-stations.json
-testconfig.py
+
