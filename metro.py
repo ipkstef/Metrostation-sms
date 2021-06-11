@@ -32,7 +32,7 @@ def connection_object(stationcode,origin):
 
 	try:
 		for station in hello["Trains"]:
-			connection_object.train_list = str("These trains are on the way to "+ origin +"! \n" "Destination Name: " +station["DestinationName"], "\n" "Arrival Min: "+station["Min"], "\n" "Line Color: " + station["Line"], "\n" "--------")
+			connection_object.train_list = "These trains are on the way to "+ origin +"!    " "Destination Name: " +station["DestinationName"], "  " "Arrival Min: "+station["Min"], "   " "Line Color: " + station["Line"], "  " "--------"
 			return connection_object.train_list			
 	except requests.exceptions.InvalidURL as err2:
 		raise SystemExit(err2)
@@ -58,7 +58,7 @@ def send_text():
 
 
 
-
+# send_text()
 
 
 
