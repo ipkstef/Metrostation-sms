@@ -57,4 +57,9 @@ docs/_build/
 
 # PyBuilder
 target/
-
+config.py
+metro.sublime-project
+metro.sublime-workspace
+metroapi/
+stations.json
+testconfig.py
