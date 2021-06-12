@@ -61,4 +61,7 @@ config.py
 metro.sublime-project
 metro.sublime-workspace
 metroapi/
-
+bin/
+nohup.out
+pyvenv.cfg
+share/
