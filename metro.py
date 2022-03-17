@@ -15,7 +15,7 @@ def connection_object(stationcode, origin):
         stationcode
     )
 
-    headers = {"api_key": "5773be3b163342cbb78169ba7a43235e"}
+    headers = {"api_key": "00000000000000"}
 
     try:
         r = requests.get(url, headers=headers)
@@ -40,8 +40,8 @@ def connection_object(stationcode, origin):
 
 def send_text():
 
-    account_sid = "AC108acf465f89df469fd0de6d7d669e64"
-    auth_token = "4a80f0b19c25c72e4c24af37a53d28d0"
+    account_sid = "000000000000000000000000000"
+    auth_token = "000000000000000000000000000"
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
